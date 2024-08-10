@@ -1,0 +1,4 @@
+@import url("roots.css");
+a{
+    color: var(--main-color-white);
+}

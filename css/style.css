@@ -1,0 +1,14 @@
+@import url("fonts.css");
+@import url("share.css");
+
+
+body{
+    background-color: #242424;
+    font-family: vazirThin;
+}
+.wrapper{
+    width: 60rem;
+}
+.top-links{
+    font-size: .9rem;
+}

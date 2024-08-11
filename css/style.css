@@ -23,12 +23,30 @@ body{
     outline: none;
     height: 2.4rem;
 }
-.search-icons{
-    width: 32px;
-    height: 32px;
-    color: white;
+.search-icon{
+    fill: var(--main-color-hover);
 }
+
 .search-button{
     top: 6px;
     left: 85px;
+}
+.cities-container{
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+.ul-title{
+    color: var(--main-color-hover);
+}
+.cities-wrapper li{
+    width: 14%;
+}
+.logos-container{
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+.socials svg{
+    fill: var(--main-color-white);
 }

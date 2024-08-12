@@ -8,9 +8,10 @@ body{
 }
 .wrapper{
     width: 42rem;
+    background-color: rgba(255, 255, 255, .04);
 }
 .top-links{
-    font-size: .9rem;
+    font-size: .8rem;
 }
 .top-links__wrapper{
     border-bottom: 1px solid rgba(255, 255, 255, .15);
@@ -22,6 +23,9 @@ body{
     border: 1px solid rgba(255, 255, 255, .15);
     outline: none;
     height: 2.4rem;
+}
+.input:focus{
+    border: 1px solid rgba(198, 40, 40, .7);
 }
 .search-icon{
     fill: var(--main-color-hover);
@@ -39,6 +43,7 @@ body{
 }
 .cities-wrapper li{
     width: 14%;
+    height: .7rem;
 }
 .logos-container{
     border-bottom: 1px solid rgba(255, 255, 255, .15);

@@ -1,0 +1,21 @@
+@import url("fonts.css");
+@import url("share.css");
+
+
+body{
+    background-color: #242424;
+    font-family: vazirNorm;
+}
+/* start header */
+.logo-img{
+    border-left: 1px solid rgba(255, 255, 255, .15);
+}
+.city-name{
+    color: var(--main-color-white);
+    transition: var(--normTransition);
+}
+.city-name:hover{
+    color: var(--main-color-hover);
+    background: rgba(255, 255, 255, .08) !important;
+}
+/* finish header */

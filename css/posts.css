@@ -18,4 +18,32 @@ body{
     color: var(--main-color-hover);
     background: rgba(255, 255, 255, .08) !important;
 }
+.categories{
+    color: var(--main-color-white);
+    transition: var(--normTransition);
+}
+.categories:hover{
+    color: var(--main-color-hover);
+    background: rgba(255, 255, 255, .08) !important;
+}
+.search-input{
+    width: 480px;
+    height: 35px;
+}
+.search-input input{
+    background: rgba(255, 255, 255, .1) !important;
+    color: var(--main-color-white) !important;
+    outline: none;
+    font-size: .9rem;
+}
+.search-input input:focus{
+    border: 1px solid rgba(198, 40, 40, .7) !important;
+}
+.search-input button{
+    top: 5px;
+    left: 2px;
+}
+.search-input button svg{
+    fill: var(--main-color-white) !important;
+}
 /* finish header */

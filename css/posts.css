@@ -46,4 +46,13 @@ body{
 .search-input button svg{
     fill: var(--main-color-white) !important;
 }
+.my-divar{
+    color: var(--main-color-white) !important;
+    transition: var(--normTransition);
+    text-wrap: nowrap;
+}
+.my-divar:hover{
+    color: var(--main-color-hover);
+    background: rgba(255, 255, 255, .08) !important;
+}
 /* finish header */

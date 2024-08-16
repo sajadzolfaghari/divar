@@ -55,4 +55,12 @@ body{
     color: var(--main-color-hover);
     background: rgba(255, 255, 255, .08) !important;
 }
+.send-post__btn{
+    text-wrap: nowrap;
+    background-color: rgba(198, 40, 40, .9);
+    transition: var(--normTransition);
+}
+.send-post__btn:hover{
+    background-color: rgba(224, 69, 69, 0.9);
+}
 /* finish header */

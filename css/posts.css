@@ -71,6 +71,19 @@ body{
     background-color: rgba(224, 69, 69, 0.9);
 }
 
+/* start city modal */
+.city-modal{
+    position: fixed;
+}
+.city-modal__overlay{
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, .04);
+}
+/* finish city modal */
+
 
 @media screen and (max-width:1230px) {
     .search-input{

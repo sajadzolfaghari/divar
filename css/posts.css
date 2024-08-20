@@ -74,13 +74,28 @@ body{
 /* start city modal */
 .city-modal{
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    right: 0;
+    z-index: 999;
+    color: rgba(255, 255, 255, 0.87);;
 }
 .city-modal__overlay{
     position: fixed;
     inset: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, .04);
+    background-color: rgba(255, 255, 255, .4);
+}
+.city-modal section {
+    background-color: #242424;
+    position: relative;
+    z-index: 999;
+}
+.city-modal__active{
+    opacity: 1;
+    visibility: visible;
 }
 /* finish city modal */
 
